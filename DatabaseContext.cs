@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
 using System;
+using Microsoft.Extensions.Options;
 
 namespace MicroORM.Oracle
 {
@@ -41,7 +42,7 @@ namespace MicroORM.Oracle
         public DatabaseContext(IOptions<DatabaseContextOptions> options)
         {
             if (options == null) throw new ArgumentNullException(nameof(options));
-            _context = new SqlContext(options.Value.ConnectionString);
+            _context = new OracleContext(options.Value.ConnectionString);
         }
 
 
