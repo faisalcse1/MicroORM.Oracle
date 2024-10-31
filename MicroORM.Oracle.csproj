@@ -1,17 +1,52 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFrameworks>net4.6.1;netcoreapp3.1;net5.0;net6.0;net7.0</TargetFrameworks>
-	  <Version>1.0.0.6</Version>
-	  <Authors>MD FAISAL</Authors>
-	  <Company>Programming Palli</Company>
-	  <Copyright>2023 Programming Palli</Copyright>
-	  <PackageProjectUrl>https://github.com/faisalcse1/MicroORM.Oracle</PackageProjectUrl>
-	  <RepositoryUrl>https://github.com/faisalcse1/MicroORM.Oracle</RepositoryUrl>
-	  <PackageTags>micro-orm;orm;dapper;dapper extension;oracle;oracle-orm</PackageTags>
-	  <Description>A high performance Micro-ORM supporting Oracle. This is the extension version for easy to configure and use.</Description>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net4.6.1;netcoreapp3.1;net5.0;net6.0;net7.0</TargetFrameworks>		
+		<Version>1.0.1</Version>
+		<Authors>MD FAISAL</Authors>
+		<Company>Programming Palli</Company>
+		<Copyright>2024 Programming Palli</Copyright>
+		<PackageProjectUrl>https://github.com/faisalcse1/Dapper.ORM</PackageProjectUrl>		
+		<PackageIconUrl />
+		<RepositoryUrl>https://github.com/faisalcse1/Dapper.ORM</RepositoryUrl>
+		<PackageTags>micro-orm;orm;dapper;dapper extension;</PackageTags>
+		<Description>A high performance Micro-ORM supporting SQL Server, My SQL Server, PostgreSQL. This is the extension version for easy to configure and use.</Description>
+		<FileVersion>1.0.0.4</FileVersion>
+		<AssemblyVersion>1.0.0.4</AssemblyVersion>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.0.123" />	
+		<PackageReference Include="Oracle.ManagedDataAccess" Version="19.20.0" />		
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
+
+		<PackageReference Include="Oracle.ManagedDataAccess.Core">
+			<Version>23.6.0</Version>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net5.0'">
+
+		<PackageReference Include="Oracle.ManagedDataAccess.Core">
+			<Version>23.6.0</Version>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
+		<PackageReference Include="Oracle.ManagedDataAccess.Core">
+			<Version>23.6.0</Version>
+		</PackageReference>
+
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0'">
+		<PackageReference Include="Oracle.ManagedDataAccess.Core">
+			<Version>23.6.0</Version>
+		</PackageReference>
+
+	</ItemGroup>
+
 
 </Project>
