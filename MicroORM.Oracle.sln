@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroORM.Oracle", "MicroORM.Oracle.csproj", "{A1E72571-3C77-4553-BE56-A3956E84D259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1E72571-3C77-4553-BE56-A3956E84D259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E72571-3C77-4553-BE56-A3956E84D259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E72571-3C77-4553-BE56-A3956E84D259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E72571-3C77-4553-BE56-A3956E84D259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB1747E4-2F90-41CA-BE18-09E30FF6472E}
+	EndGlobalSection
+EndGlobal
