@@ -6,13 +6,13 @@
 		<Authors>MD FAISAL</Authors>
 		<Company>Programming Palli</Company>
 		<Copyright>2024 Programming Palli</Copyright>
-		<PackageProjectUrl>https://github.com/faisalcse1/Dapper.ORM</PackageProjectUrl>		
+		<PackageProjectUrl>https://github.com/faisalcse1/MicroORM.Oracle</PackageProjectUrl>		
 		<PackageIconUrl />
-		<RepositoryUrl>https://github.com/faisalcse1/Dapper.ORM</RepositoryUrl>
-		<PackageTags>micro-orm;orm;dapper;dapper extension;</PackageTags>
-		<Description>A high performance Micro-ORM supporting SQL Server, My SQL Server, PostgreSQL. This is the extension version for easy to configure and use.</Description>
-		<FileVersion>1.0.0.4</FileVersion>
-		<AssemblyVersion>1.0.0.4</AssemblyVersion>
+		<RepositoryUrl>https://github.com/faisalcse1/MicroORM.Oracle</RepositoryUrl>
+		<PackageTags>micro-orm;orm;dapper;dapper extension;MicroORM.Oracle;Oracle</PackageTags>
+		<Description>A high performance Micro-ORM supporting Oracle Database Server. This is the extension version for easy to configure and use.</Description>
+		<FileVersion>1.0.1</FileVersion>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 
