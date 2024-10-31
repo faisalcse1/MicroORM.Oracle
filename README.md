@@ -1,6 +1,12 @@
 # MicroORM.Oracle : Overview
 A high performance Micro-ORM supporting Oracle Database Server. This is the extension version for easy to configure and use.
+# Packages
+NuGet library: https://www.nuget.org/packages/MicroORM.Oracle
+# Installation
 
+````
+NuGet\Install-Package MicroORM.Oracle
+````
 # Features
 ````
 Query
